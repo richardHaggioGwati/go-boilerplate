@@ -1,26 +1,44 @@
-# My Three.js Project
+# Fullstack Go Boilerplate
 
-This is a simple project using the Three.js library to render a 3D scene in a web browser.
+A modern fullstack boilerplate project designed for building scalable applications with:
 
-## Getting Started
+* A shared Go backend
+* An Android client using Jetpack Compose
+* A web frontend using any preferred frontend framework
 
-To get started with this project, you will need to have [Node.js](https://nodejs.org/) installed on your computer.
+This repository provides a clean starting point for developing mobile and web applications powered by a single Go API backend.
 
-1. Clone this repository to your local machine.
-2. Install the project dependencies by running `npm install`.
-3. Start the development server by running `npm run dev`.
-4. Open your web browser and navigate to [localhost:1234](http://localhost:1234) to view the project.
+## Features
 
-## Technologies Used
+### Shared Go Backend
 
-- Three.js
-- Node.js
-- npm
+* REST API architecture
+* JSON request/response handling
+* Route organization
+* Modular structure
+* Ready for authentication
+* Easy database integration
+* Cross-platform API support
 
-## Resources
+### Android Boilerplate
 
-- [Three.js Documentation](https://threejs.org/docs/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [npm Documentation](https://docs.npmjs.com/)
+Built with:
 
-Happy Coding 🚀
+* Jetpack Compose
+* MVVM architecture
+* Retrofit networking
+* Material 3 UI
+* Kotlin Coroutines
+* State management
+* Repository pattern
+
+### Web Boilerplate
+
+Frontend-ready structure compatible with:
+
+* React
+* Next.js
+* Vue.js
+* Svelte
+
+The web client communicates with the same Go backend API used by the Android app.
